@@ -1,0 +1,10 @@
+Origin: Elyon
+Label: Elyon
+Suite: stable
+Codename: stable
+Architectures: amd64
+Components: main
+MD5Sum:
+ 00000000000000000000000000000000 189 main/binary-amd64/Packages.gz
+SHA256:
+ 35a1a8f51a533caa1223dc52774a02c52559c80e1881425e9e11e551bef59fe6 212 main/binary-amd64/Packages
