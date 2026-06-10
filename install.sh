@@ -6,6 +6,7 @@
 set -e
 
 PAGES_BASE="${ELYON_INSTALL_BASE:-https://adi-los.github.io/elyon-packages}"
+RELEASE_BASE="${ELYON_RELEASE_BASE:-https://github.com/adi-los/elyon-packages/releases/latest/download}"
 INSTALL_DIR="${ELYON_INSTALL_DIR:-/usr/local/bin}"
 BINARY="elyon"
 
@@ -31,10 +32,10 @@ case "$OS" in
     elif command -v apt-get >/dev/null 2>&1; then
       echo "Tip: For full platform setup use: curl -fsSL ${PAGES_BASE}/setup-apt.sh | bash"
     fi
-    DOWNLOAD_URL="${PAGES_BASE}/linux/${ARCH}/elyon"
+    DOWNLOAD_URL="${RELEASE_BASE}/elyon_linux_${ARCH}"
     ;;
   darwin)
-    DOWNLOAD_URL="${PAGES_BASE}/mac/${ARCH}/elyon"
+    DOWNLOAD_URL="${RELEASE_BASE}/elyon_darwin_${ARCH}"
     ;;
   *)
     echo "Unsupported OS: $OS"
