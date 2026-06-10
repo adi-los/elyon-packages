@@ -4,7 +4,7 @@
 #   curl -fsSL https://adi-los.github.io/elyon-packages/setup-dnf.sh | bash
 
 set -e
-PAGES_BASE="${PAGES_BASE:-https://adi-los.github.io/elyon-packages}"
+PAGES_BASE="${PAGES_BASE:-https://raw.githubusercontent.com/adi-los/elyon-packages/main}"
 
 [ "$EUID" -ne 0 ] && exec sudo bash "$0" "$@"
 
