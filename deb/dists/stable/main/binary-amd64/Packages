@@ -1,0 +1,9 @@
+Package: elyon
+Version: 2.0
+Architecture: amd64
+Maintainer: Elyon Team <support@elyon.io>
+Description: Elyon platform
+Filename: https://github.com/adi-los/elyon-packages/releases/download/v2.0/
+Size: 0
+SHA256: 
+
