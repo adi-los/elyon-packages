@@ -3,7 +3,7 @@ Version: 2.0
 Architecture: amd64
 Maintainer: Elyon Team <support@elyon.io>
 Description: Elyon platform
-Filename: https://github.com/adi-los/elyon-packages/releases/download/v2.0/
-Size: 0
-SHA256: 
+Filename: https://github.com/adi-los/elyon-packages/releases/download/v2.0/elyon_2.0.0_amd64.deb
+Size: 62825696
+SHA256: b25c0f027336fb2140f08c854240901799bea98bfdd1358c44994a342b341114
 
